@@ -8,6 +8,10 @@ One line â€” the funniest excuse an AI agent could offer after failing a task â€
 
 Round 2 resubmit: our round-1 line ranked #2298 of 2981, below the interim cut of 500, so its score is frozen. This line is a fresh entry for round 2.
 
+## Revision note
+
+`main.py` assembles the line from its named parts (`_BEAT_1`, `_BEAT_2`, `_REVEAL`) joined with single spaces, so the 2-beat + reveal structure is visible in the code. The written entry is byte-identical to the submitted round-2 line (110 chars, no trailing newline).
+
 ## Run it
 
 ```sh
